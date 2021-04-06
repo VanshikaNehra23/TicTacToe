@@ -1,0 +1,80 @@
+
+*{
+    font-family: 'New Tegomin', serif;
+}
+body{
+    background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(tic.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+
+}
+	h1 {
+		color:transparent;
+        -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color:rgb(250, 79, 11);
+		font-size: 50px;
+	}
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 0px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	/* Reset Button */
+	.but {
+        font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid rgb(255, 56, 30);
+		margin: auto;
+		border-radius: 4px;
+
+		background-color: rgb(238, 80, 80);
+		color: rgb(248, 239, 227);
+		font-size: 20px;
+		cursor: pointer;
+        
+	}
+    button:hover{
+        background-color: rgb(243, 105, 95);
+        color: rgb(252, 207, 147);
+    }
+
+	/* Player turn space */
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: rgb(255, 75, 30);
+		font-size: 20px;
+	}
+
+	/* Main Contianer */
+	#main {
+		text-align: center;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: rgb(10, 10, 10);
+		font-size: 17px;
+	}
+    .blocks:hover{
+        cursor: pointer;
+        background: #ffc7c3;
+    }
